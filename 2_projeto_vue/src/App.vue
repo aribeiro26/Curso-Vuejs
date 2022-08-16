@@ -1,9 +1,9 @@
 <template>
     <div>
-        <Header/>
+        <Header />
         <PrimeiroComponente />
         <LifeCycle />
-        <Pessoa/>
+        <Pessoa />
     </div>
 </template>
 
@@ -12,25 +12,26 @@ import PrimeiroComponente from "./components/PrimeiroComponente.vue";
 import LifeCycle from "./components/LifeCycle.vue";
 import Pessoa from "./components/Pessoa.vue";
 import Header from "./components/Header.vue";
+import StyleApp from "@/components/Styles/App.styles";
 export default {
     name: "App",
     components: {
         Header,
         PrimeiroComponente,
         LifeCycle,
-        Pessoa
+        Pessoa,
+        StyleApp,
     },
 };
 </script>
 
 <style>
-    body{
-        background-color: #333;
-        color: #fff;
-    }
+body {
+    background-color: #333;
+    color: #fff;
+}
 
-    a{
-        color: #ff0000d9;
-    }
-
+a {
+    color: #ff0000d9;
+}
 </style>
